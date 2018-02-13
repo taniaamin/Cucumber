@@ -1,0 +1,53 @@
+{
+  "uid" : "6b956e3f5067501f",
+  "name" : "And I click on Sign in button on home screen",
+  "title" : "And I click on Sign in button on home screen",
+  "time" : {
+    "start" : 1518486214942,
+    "stop" : 1518486214942,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ca34250c50090f5f",
+    "name" : "Verify user should not be able to login using invalid credentials",
+    "title" : "Verify user should not be able to login using invalid credentials"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Verify user should not be able to login using invalid credentials"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "tanias-MBP.fios-router.home"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon login feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify user should not be able to login using invalid credentials"
+  }, {
+    "name" : "thread",
+    "value" : "961@tanias-MBP.fios-router.home.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Verify user should not be able to login using invalid credentials"
+  } ],
+  "parameters" : [ ]
+}

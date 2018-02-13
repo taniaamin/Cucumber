@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518486212691" stop="1518486218956" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user should not be able to login using invalid credentials</name>
+    <title>Verify user should not be able to login using invalid credentials</title>
+    <test-cases>
+        <test-case start="1518486213069" stop="1518486213073" status="passed">
+            <name>Given I am on home page of Amazon</name>
+            <title>Given I am on home page of Amazon</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MBP.fios-router.home"/>
+                <label name="thread" value="961@tanias-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518486213797" stop="1518486213798" status="passed">
+            <name>When I Hover over to Accounts &amp; List</name>
+            <title>When I Hover over to Accounts &amp; List</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MBP.fios-router.home"/>
+                <label name="thread" value="961@tanias-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518486214942" stop="1518486214942" status="passed">
+            <name>And I click on Sign in button on home screen</name>
+            <title>And I click on Sign in button on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MBP.fios-router.home"/>
+                <label name="thread" value="961@tanias-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518486215467" stop="1518486215467" status="passed">
+            <name>And I enter sometext into username on amazon sign in page</name>
+            <title>And I enter sometext into username on amazon sign in page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MBP.fios-router.home"/>
+                <label name="thread" value="961@tanias-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518486215560" stop="1518486215560" status="passed">
+            <name>And I enter test into password on amazon sign in page</name>
+            <title>And I enter test into password on amazon sign in page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MBP.fios-router.home"/>
+                <label name="thread" value="961@tanias-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518486218053" stop="1518486218053" status="passed">
+            <name>And I click on log in button on home screen</name>
+            <title>And I click on log in button on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MBP.fios-router.home"/>
+                <label name="thread" value="961@tanias-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518486218166" stop="1518486218192" status="failed">
+            <name>Then I verify invalid error message</name>
+            <title>Then I verify invalid error message</title>
+            <failure>
+                <message>AssertionError: expected [There was a problem] but found [Important Message!]</message>
+                <stack-trace>java.lang.AssertionError: expected [There was a problem] but found [Important Message!]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at stepdefinition.AmazonLoginSD.verifySignUpErrorMessage(AmazonLoginSD.java:81)
+	at ✽.Then I verify invalid error message(amazonlogin.feature:16)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MBP.fios-router.home"/>
+                <label name="thread" value="961@tanias-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user should not be able to login using invalid credentials"/>
+        <label name="feature" value="Amazon login feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

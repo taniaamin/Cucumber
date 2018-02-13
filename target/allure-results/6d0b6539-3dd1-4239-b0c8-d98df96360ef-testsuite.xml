@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518292058973" stop="1518292139868" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user should not be able to login using invalid credentials</name>
+    <title>Verify user should not be able to login using invalid credentials</title>
+    <test-cases>
+        <test-case start="1518292069083" stop="1518292069091" status="passed">
+            <name>Given I am on home page of Amazon</name>
+            <title>Given I am on home page of Amazon</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MacBook-Pro.local"/>
+                <label name="thread" value="2091@tanias-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518292084850" stop="1518292084851" status="passed">
+            <name>When I Hover over to Accounts &amp; List</name>
+            <title>When I Hover over to Accounts &amp; List</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MacBook-Pro.local"/>
+                <label name="thread" value="2091@tanias-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518292096159" stop="1518292096159" status="passed">
+            <name>And I click on Sign in button on home screen</name>
+            <title>And I click on Sign in button on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MacBook-Pro.local"/>
+                <label name="thread" value="2091@tanias-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518292106596" stop="1518292106596" status="passed">
+            <name>And I enter sometext into username on amazon sign in page</name>
+            <title>And I enter sometext into username on amazon sign in page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MacBook-Pro.local"/>
+                <label name="thread" value="2091@tanias-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518292116805" stop="1518292116805" status="passed">
+            <name>And I enter test into password on amazon sign in page</name>
+            <title>And I enter test into password on amazon sign in page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MacBook-Pro.local"/>
+                <label name="thread" value="2091@tanias-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518292129186" stop="1518292129186" status="passed">
+            <name>And I click on log in button on home screen</name>
+            <title>And I click on log in button on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MacBook-Pro.local"/>
+                <label name="thread" value="2091@tanias-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518292139290" stop="1518292139290" status="passed">
+            <name>Then I verify invalid error message</name>
+            <title>Then I verify invalid error message</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="tanias-MacBook-Pro.local"/>
+                <label name="thread" value="2091@tanias-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user should not be able to login using invalid credentials"/>
+        <label name="feature" value="Amazon login feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

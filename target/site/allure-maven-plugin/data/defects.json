@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "4c80ce7263118cb7",
+      "failure" : {
+        "message" : "AssertionError: expected [There was a problem] but found [Important Message!]",
+        "stackTrace" : "java.lang.AssertionError: expected [There was a problem] but found [Important Message!]\n\tat org.testng.Assert.fail(Assert.java:93)\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\n\tat org.testng.Assert.assertEquals(Assert.java:115)\n\tat org.testng.Assert.assertEquals(Assert.java:189)\n\tat org.testng.Assert.assertEquals(Assert.java:199)\n\tat stepdefinition.AmazonLoginSD.verifySignUpErrorMessage(AmazonLoginSD.java:81)\n\tat ✽.Then I verify invalid error message(amazonlogin.feature:16)\n"
+      },
+      "testCases" : [ {
+        "uid" : "44b5a6b38cf4fec2",
+        "name" : "Then I verify invalid error message",
+        "title" : "Then I verify invalid error message",
+        "time" : {
+          "start" : 1518486218166,
+          "stop" : 1518486218192,
+          "duration" : 26
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "234acd12a4573a6a",
+  "name" : "Then I verify invalid error message",
+  "title" : "Then I verify invalid error message",
+  "time" : {
+    "start" : 1518292139290,
+    "stop" : 1518292139290,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "945d030468a60ff",
+    "name" : "Verify user should not be able to login using invalid credentials",
+    "title" : "Verify user should not be able to login using invalid credentials"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "tanias-MacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify user should not be able to login using invalid credentials"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon login feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify user should not be able to login using invalid credentials"
+  }, {
+    "name" : "story",
+    "value" : "Verify user should not be able to login using invalid credentials"
+  }, {
+    "name" : "thread",
+    "value" : "2091@tanias-MacBook-Pro.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

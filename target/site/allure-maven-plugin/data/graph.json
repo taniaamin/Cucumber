@@ -1,0 +1,157 @@
+{
+  "testCases" : [ {
+    "uid" : "981468827353e3b6",
+    "name" : "Given I am on home page of Amazon",
+    "title" : "Given I am on home page of Amazon",
+    "time" : {
+      "start" : 1518486213069,
+      "stop" : 1518486213073,
+      "duration" : 4
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7b62b185e94fd786",
+    "name" : "When I Hover over to Accounts & List",
+    "title" : "When I Hover over to Accounts & List",
+    "time" : {
+      "start" : 1518486213797,
+      "stop" : 1518486213798,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6b956e3f5067501f",
+    "name" : "And I click on Sign in button on home screen",
+    "title" : "And I click on Sign in button on home screen",
+    "time" : {
+      "start" : 1518486214942,
+      "stop" : 1518486214942,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b7c96215b8781333",
+    "name" : "And I enter sometext into username on amazon sign in page",
+    "title" : "And I enter sometext into username on amazon sign in page",
+    "time" : {
+      "start" : 1518486215467,
+      "stop" : 1518486215467,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "866251d18da3bb96",
+    "name" : "And I enter test into password on amazon sign in page",
+    "title" : "And I enter test into password on amazon sign in page",
+    "time" : {
+      "start" : 1518486215560,
+      "stop" : 1518486215560,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "76690e2d790200b4",
+    "name" : "And I click on log in button on home screen",
+    "title" : "And I click on log in button on home screen",
+    "time" : {
+      "start" : 1518486218053,
+      "stop" : 1518486218053,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "44b5a6b38cf4fec2",
+    "name" : "Then I verify invalid error message",
+    "title" : "Then I verify invalid error message",
+    "time" : {
+      "start" : 1518486218166,
+      "stop" : 1518486218192,
+      "duration" : 26
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "be03bfcf4db69039",
+    "name" : "Given I am on home page of Amazon",
+    "title" : "Given I am on home page of Amazon",
+    "time" : {
+      "start" : 1518292069083,
+      "stop" : 1518292069091,
+      "duration" : 8
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6cc3f50a14e79aff",
+    "name" : "When I Hover over to Accounts & List",
+    "title" : "When I Hover over to Accounts & List",
+    "time" : {
+      "start" : 1518292084850,
+      "stop" : 1518292084851,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "aef5975911c88aaa",
+    "name" : "And I click on Sign in button on home screen",
+    "title" : "And I click on Sign in button on home screen",
+    "time" : {
+      "start" : 1518292096159,
+      "stop" : 1518292096159,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "de83fe74cad3bea5",
+    "name" : "And I enter sometext into username on amazon sign in page",
+    "title" : "And I enter sometext into username on amazon sign in page",
+    "time" : {
+      "start" : 1518292106596,
+      "stop" : 1518292106596,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5ee80cbf722f355e",
+    "name" : "And I enter test into password on amazon sign in page",
+    "title" : "And I enter test into password on amazon sign in page",
+    "time" : {
+      "start" : 1518292116805,
+      "stop" : 1518292116805,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9b0b8f52e3c57b21",
+    "name" : "And I click on log in button on home screen",
+    "title" : "And I click on log in button on home screen",
+    "time" : {
+      "start" : 1518292129186,
+      "stop" : 1518292129186,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "78277e9dcb780efd",
+    "name" : "Then I verify invalid error message",
+    "title" : "Then I verify invalid error message",
+    "time" : {
+      "start" : 1518292139290,
+      "stop" : 1518292139290,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

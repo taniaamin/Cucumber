@@ -1,0 +1,53 @@
+{
+  "uid" : "23dc0e41d2276739",
+  "name" : "And I enter test into password on amazon sign in page",
+  "title" : "And I enter test into password on amazon sign in page",
+  "time" : {
+    "start" : 1518292116805,
+    "stop" : 1518292116805,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "945d030468a60ff",
+    "name" : "Verify user should not be able to login using invalid credentials",
+    "title" : "Verify user should not be able to login using invalid credentials"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "tanias-MacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify user should not be able to login using invalid credentials"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon login feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify user should not be able to login using invalid credentials"
+  }, {
+    "name" : "story",
+    "value" : "Verify user should not be able to login using invalid credentials"
+  }, {
+    "name" : "thread",
+    "value" : "2091@tanias-MacBook-Pro.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

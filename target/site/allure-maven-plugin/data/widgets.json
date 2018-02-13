@@ -1,0 +1,60 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 14,
+      "passed" : 13,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "time" : {
+      "start" : 1518292069083,
+      "stop" : 1518486218192,
+      "duration" : 194149109
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 1,
+      "message" : "AssertionError: expected [There was a problem] but found [Important Message!]",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Verify user should not be able to login using invalid credentials",
+      "statistic" : {
+        "total" : 14,
+        "passed" : 13,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Amazon login feature",
+      "statistic" : {
+        "total" : 14,
+        "passed" : 13,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}
